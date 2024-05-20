@@ -6,10 +6,20 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em 0;
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  display: flex; /* Added flex display for header */
+  align-items: flex-end; /* Align menu items to bottom */
 }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 
 header .container {
     display: flex;
