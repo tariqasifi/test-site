@@ -4,48 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Affiliate Links</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            text-align: center;
-        }
-        .affiliate-link {
-            margin: 10px 0;
-        }
-        .affiliate-link a {
-            color: #0066c0;
-            text-decoration: none;
-        }
-        .affiliate-link a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>My Affiliate Links</h1>
-        <div class="affiliate-link">
-            <a href="https://www.amazon.com/dp/example?tag=yourtag-20">Product 1</a>
+    <header>
+        <div class="container">
+            <h1>My Affiliate Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="affiliate-link">
-            <a href="https://www.amazon.com/dp/example?tag=yourtag-20">Product 2</a>
+    </header>
+    <main class="container">
+        <section id="home">
+            <h2>Welcome to My Affiliate Site</h2>
+            <p>Discover amazing products through our affiliate links.</p>
+        </section>
+        <section id="products">
+            <h2>Products</h2>
+            <div class="affiliate-link">
+                <a href="https://www.amazon.com/dp/example?tag=yourtag-20">Product 1</a>
+            </div>
+            <div class="affiliate-link">
+                <a href="https://www.amazon.com/dp/example?tag=yourtag-20">Product 2</a>
+            </div>
+            <!-- Voeg meer affiliate links toe zoals hierboven -->
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about our mission and values.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us for any inquiries.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Affiliate Site</p>
         </div>
-        <!-- Voeg meer affiliate links toe zoals hierboven -->
-    </div>
+    </footer>
 </body>
 </html>
