@@ -7,10 +7,10 @@ body {
 }
 
 header {
-    background-color: #fff; /* Achtergrondkleur van de header */
-    color: #000; /* Tekstkleur van de header */
+    background-color: #fff;
+    color: #000;
     padding: 1em 0;
-    border-bottom: 1px solid #ddd; /* Onderlijn voor de header */
+    border-bottom: 1px solid #ddd;
 }
 
 header .container {
@@ -24,7 +24,7 @@ header .container {
 
 header h1 {
     margin: 0;
-    color: #000; /* Kleur van de headertekst */
+    color: #000;
 }
 
 nav ul {
@@ -39,9 +39,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000; /* Kleur van de tekst in het menu */
+    color: #000;
     text-decoration: none;
-    font-weight: bold; /* Vetgedrukte tekst */
+    font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -99,10 +99,14 @@ section#contact {
     width: calc(33.333% - 40px);
     box-sizing: border-box;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product img {
     max-width: 100%;
+    height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -119,6 +123,7 @@ section#contact {
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
+    margin-top: auto; /* Ensure the button is at the bottom */
 }
 
 .product a:hover {
@@ -127,7 +132,7 @@ section#contact {
 
 footer {
     background-color: #333;
-    color: #000; /* Tekstkleur van de footer */
+    color: #fff;
     text-align: center;
     padding: 1em 0;
     margin-top: 20px;
