@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Product 1",
+        "image": "https://via.placeholder.com/300x200.png?text=Product+1",
+        "link": "https://www.amazon.com/dp/example?tag=yourtag-20"
+    },
+    {
+        "name": "Product 2",
+        "image": "https://via.placeholder.com/300x200.png?text=Product+2",
+        "link": "https://www.amazon.com/dp/example?tag=yourtag-20"
+    },
+    {
+        "name": "Product 3",
+        "image": "https://via.placeholder.com/300x200.png?text=Product+3",
+        "link": "https://www.amazon.com/dp/example?tag=yourtag-20"
+    }
+]
