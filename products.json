@@ -2,16 +2,16 @@
     {
         "name": "Product 1",
         "image": "https://via.placeholder.com/300x200.png?text=Product+1",
-        "link": "https://www.amazon.com/dp/example?tag=yourtag-20"
+        "link": "https://www.amazon.com/dp/example?tag=koopbyas-20"
     },
     {
         "name": "Product 2",
         "image": "https://via.placeholder.com/300x200.png?text=Product+2",
-        "link": "https://www.amazon.com/dp/example?tag=yourtag-20"
+        "link": "https://www.amazon.com.be/-/nl/Ice-Watch-Smartwatch-siliconen-021413-Ros%C3%A9goud/dp/B0C1488BMP/ref=sr_1_4?_encoding=UTF8&content-id=amzn1.sym.12624172-6341-4af7-b2be-dc63d237b7f5&dib=eyJ2IjoiMSJ9.8y5Jmjq_bSJOWDMD-hjmW_C6GL6R9vcwVrymCI8FcKA-CViLggWP1bHBxdkGhw1nO4vNsPqy-9Ife3IUes21psnxsXgxP3DiQ8zovpgF2aSGACAo-bTxTf8KZMGQPVjMwAItmZGPqP8I7-rOy1VoYdU4sQ2nSblM0QF8GhppoR3AQV7aCRsq0jcL-QWkwqgCMh8PIUo4_VFyImVmi5uBr_7GCygaPwzBzkKuhfllzFpO3IBdgauiKDFROGlcssl0QG2GnTx6HvQKFxuiTqXpaLq9jYntUA_QGEwGL_USLkA.WlvS6eg4ZP91dPLaoTH0iLmzTMonGWPHxCTgWwPHzj4&dib_tag=se&pd_rd_r=562d088c-f5ae-4dc1-818c-3fdfa09f302e&pd_rd_w=bSzmA&pd_rd_wg=wP7NB&pf_rd_p=12624172-6341-4af7-b2be-dc63d237b7f5&pf_rd_r=AFEQYVKTASN98NGMS1WA&qid=1716237752&refinements=p_72%3A27921103031%2Cp_36%3A-10000&s=electronics&sr=1-4?tag=koopbyas-20"
     },
     {
         "name": "Product 3",
         "image": "https://via.placeholder.com/300x200.png?text=Product+3",
-        "link": "https://www.amazon.com/dp/example?tag=yourtag-20"
+        "link": "https://www.amazon.com/dp/example?tag=koopbyas-20"
     }
 ]
